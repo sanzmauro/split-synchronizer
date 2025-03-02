@@ -1,4 +1,4 @@
-FROM debian:bookworm-20240812
+FROM debian:12.9
 
 RUN apt update -y
 RUN apt install -y build-essential ca-certificates
